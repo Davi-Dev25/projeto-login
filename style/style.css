@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root{
-    --cor01: #49a09d;
+    --cor01: #5dd6d2;
     --cor02: #3a1851;
     --cor03: black;
     --cor04: white;
@@ -24,6 +24,15 @@ main{
     position: absolute;
 }
 
+#img{
+    width: 220px;
+    height: 100px;
+    background: url(../imagens/login.jpg) center, center no-repeat;
+    background-size: cover;
+    margin: auto;
+    border-radius:5px;
+}
+
 #form{
     background-color: white;
     position: absolute;
@@ -34,7 +43,7 @@ main{
     border-radius: 5px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -45%);
 }
 
 h1{
@@ -50,6 +59,7 @@ p{
 input{
     background-color: var(--cor01);
     border: 3px solid var(--cor02);
+    height: 20px;
     border-radius: 5px;
 }
 
