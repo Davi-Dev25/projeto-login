@@ -21,29 +21,27 @@ main{
     width: 100vw;
     height: 100vh;
     padding: 10px;
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#img{
+
+div > img{
+    display: flex;
     width: 220px;
-    height: 100px;
-    background: url(../imagens/login.jpg) center, center no-repeat;
-    background-size: cover;
-    margin: auto;
-    border-radius:5px;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 #form{
     background-color: white;
-    position: absolute;
     width: 200px;
-    height: 250px;
-
+    height: 400px;
     padding: 10px;
-    border-radius: 5px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -45%);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 h1{
@@ -54,6 +52,7 @@ h1{
 
 p{
     text-align: justify;
+    margin: 10px;
 }
 
 input{
