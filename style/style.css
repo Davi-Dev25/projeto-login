@@ -2,7 +2,7 @@
 
 :root{
     --cor01: #49a09d;
-    --cor02: #5f2c82;
+    --cor02: #3a1851;
     --cor03: black;
     --cor04: white;
 }
@@ -20,15 +20,40 @@ body{
 main{
     width: 100vw;
     height: 100vh;
+    padding: 10px;
     position: absolute;
 }
+
 #form{
     background-color: white;
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
+
+    padding: 10px;
+    border-radius: 5px;
     top: 50%;
     left: 50%;
-
     transform: translate(-50%, -50%);
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+input{
+    background-color: var(--cor01);
+    border: 3px solid var(--cor02);
+    border-radius: 5px;
+}
+
+span{
+    color: white;
+    background-color: var(--cor02);
 }
