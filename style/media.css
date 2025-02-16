@@ -3,6 +3,7 @@
 @media screen and (min-width: 768px) and (max-width: 968px) {
     #login{
         width: 80vw;
+        height: 300px;
     }
     #login > #img{
         float: left;
@@ -19,6 +20,7 @@
 @media screen and (min-width: 968px) {
     #login{
         width: 950px;
+        height: 400px;
     }
     #login > #img{
         float: right;
@@ -34,7 +36,7 @@
     }
     #form > p{
         text-align: justify;
-        margin: 10px;
+        margin: 20px;
         font-size: 1.3em;
     }
 }
