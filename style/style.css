@@ -38,7 +38,7 @@ main{
 
 
     width: 250px;
-    height: 500px;
+    height: 550px;
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 0px 10px  rgba(0, 0, 0, 0.481);
@@ -58,27 +58,63 @@ main{
     padding: 10px;
 }
 
-h1{
+#form > h1{
     text-align: center;
-    margin: 10px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 
-p{
+#form > p{
     text-align: justify;
     margin: 10px;
+    font-size: 0.8em;
 }
-
-input{
-    background-color: var(--cor01);
-    margin-bottom: 2px;
-    border: 3px solid var(--cor02);
-    height: 20px;
-    border-radius: 5px;
-}
-
-
-.material-symbols-outlined{
-    color: white;
+form > .campo{
     background-color: var(--cor02);
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div > label{
+    display: none;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #084b48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: #1feee4;
+}
+
+form > .botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: white;
+    color: #022322 ;
+    border: 1px solid #084b48;
+    border-radius: 5px;
+    text-decoration: none;
+}
+form > .botao:hover{
+    background-color: #18aba6;
+}
+.botao > span{
+    font-size: 8.em;
 }
